@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Day01_Basics/Day01_Basics.csproj" />
   <Project Path="Day02_Methods_Arrays_Strings/Day02_Methods_Arrays_Strings.csproj" />
+  <Project Path="Day03_OOPs/Day03_OOPs.csproj" />
 </Solution>
