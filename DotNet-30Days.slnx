@@ -2,4 +2,5 @@
   <Project Path="Day01_Basics/Day01_Basics.csproj" />
   <Project Path="Day02_Methods_Arrays_Strings/Day02_Methods_Arrays_Strings.csproj" />
   <Project Path="Day03_OOPs/Day03_OOPs.csproj" />
+  <Project Path="Day04_AdvanceC#/Day04_AdvanceC#.csproj" Id="2a5b59bd-e9e2-45c0-9551-e19a04f93a76" />
 </Solution>
