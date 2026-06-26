@@ -36,60 +36,64 @@ employee.Add(new Employee
 
 foreach (var item in employee)
 {
-   
-
-Dictionary<int,string> employees = new Dictionary<int,string>();
-
-employees.Add(101, "Emp1");
-employees.Add(102, "Emp2");
-employees.Add(103, "Emp3");
-employees.Add(104, "Emp4");
-employees.Add(105, "Emp5");
-
-foreach (var item in employees)
-{
-    Console.WriteLine(item);
+    Console.WriteLine(item.Name);
+    Console.WriteLine(item.Id);
+    Console.WriteLine(item.Salary);
 }
 
-HashSet<string> Alphabets = new HashSet<string>();
-Alphabets.Add("ABC");
-Alphabets.Add("XYZ");
-Alphabets.Add("PQR");
 
-//this will remove as duplicate not store in hashset
-Alphabets.Add("ABC");
+    Dictionary<int, string> employees = new Dictionary<int, string>();
 
-foreach (var alpha in Alphabets)
-{
-    Console.WriteLine(alpha);
-}
+    employees.Add(101, "Emp1");
+    employees.Add(102, "Emp2");
+    employees.Add(103, "Emp3");
+    employees.Add(104, "Emp4");
+    employees.Add(105, "Emp5");
 
-Queue<string> queue = new Queue<string>();
+    foreach (var emp in employees)
+    {
+        Console.WriteLine(emp);
+    }
 
-queue.Enqueue("Customer1");
-queue.Enqueue("Customer2");
-queue.Enqueue("Customer3");
-queue.Enqueue("Customer4");
-queue.Enqueue("Customer5");
+    HashSet<string> Alphabets = new HashSet<string>();
+    Alphabets.Add("ABC");
+    Alphabets.Add("XYZ");
+    Alphabets.Add("PQR");
 
-foreach( var que in queue)
-{
-    Console.WriteLine(que);
-}
+    //this will remove as duplicate not store in hashset
+    Alphabets.Add("ABC");
 
-Stack<string> stack = new Stack<string>();
-stack.Push("Page1");
-stack.Push("Page2");
-stack.Push("Page3");
+    foreach (var alpha in Alphabets)
+    {
+        Console.WriteLine(alpha);
+    }
 
-foreach(var item in stack)
-{
-    Console.WriteLine(item);
-}
+    Queue<string> queue = new Queue<string>();
 
-stack.Pop();
+    queue.Enqueue("Customer1");
+    queue.Enqueue("Customer2");
+    queue.Enqueue("Customer3");
+    queue.Enqueue("Customer4");
+    queue.Enqueue("Customer5");
 
-foreach(var item in stack)
-{
-    Console.WriteLine(item);
-}
+    foreach (var que in queue)
+    {
+        Console.WriteLine(que);
+    }
+
+    Stack<string> stack = new Stack<string>();
+    stack.Push("Page1");
+    stack.Push("Page2");
+    stack.Push("Page3");
+
+    foreach (var itm in stack)
+    {
+        Console.WriteLine(itm);
+    }
+
+    stack.Pop();
+
+    foreach (var itm in stack)
+    {
+        Console.WriteLine(itm);
+    }
