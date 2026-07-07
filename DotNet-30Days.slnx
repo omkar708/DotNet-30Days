@@ -4,5 +4,6 @@
   <Project Path="Day03_OOPs/Day03_OOPs.csproj" />
   <Project Path="Day04_AdvanceC#/Day04_AdvanceC#.csproj" Id="2a5b59bd-e9e2-45c0-9551-e19a04f93a76" />
   <Project Path="Day06_LINQ/Day06_LINQ.csproj" Id="639a23ce-7ae0-4db1-889d-9f499e9ceeb1" />
+  <Project Path="Day07_Delegate_Lambda_AnonymousMethods/Day07_Delegate_Lambda_AnonymousMethods.csproj" Id="db98a58e-89ce-4e78-a6b5-b600290b3b34" />
   <Project Path="Day5_Collection_Generics/Day05_Collection_Generics.csproj" Id="bf8a9074-c43c-4eb3-a4cc-7a2a2f5eb5dc" />
 </Solution>
