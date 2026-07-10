@@ -6,5 +6,6 @@
   <Project Path="Day06_LINQ/Day06_LINQ.csproj" Id="639a23ce-7ae0-4db1-889d-9f499e9ceeb1" />
   <Project Path="Day07_Delegate_Lambda_AnonymousMethods/Day07_Delegate_Lambda_AnonymousMethods.csproj" Id="db98a58e-89ce-4e78-a6b5-b600290b3b34" />
   <Project Path="Day08_Exception_SOLID/Day08_Exception_SOLID.csproj" Id="bbfbe9cc-7898-4b35-8e9a-f3bda374485b" />
+  <Project Path="Day09_Generic/Day09_Generic.csproj" Id="4947214c-9185-43fd-be5d-5b44f447d5a0" />
   <Project Path="Day5_Collection_Generics/Day05_Collection_Generics.csproj" Id="bf8a9074-c43c-4eb3-a4cc-7a2a2f5eb5dc" />
 </Solution>
